@@ -206,9 +206,10 @@
     background: radial-gradient(ellipse at 50% 30%, rgba(229, 9, 20, 0.14), transparent 70%);
   }
   .hero-photo {
-    position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; object-position: bottom center;
-    -webkit-mask-image: linear-gradient(to bottom, #000 70%, transparent);
-    mask-image: linear-gradient(to bottom, #000 70%, transparent);
+    position: absolute; left: 50%; bottom: 0; width: 78%; height: 88%; transform: translateX(-50%);
+    object-fit: cover; object-position: center 20%; border-radius: 999px 999px 0 0;
+    -webkit-mask-image: linear-gradient(to bottom, #000 72%, transparent);
+    mask-image: linear-gradient(to bottom, #000 72%, transparent);
   }
   .monogram {
     position: absolute; left: 50%; bottom: 6%; transform: translateX(-50%); display: none;
